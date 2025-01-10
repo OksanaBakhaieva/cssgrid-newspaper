@@ -1,7 +1,6 @@
 :root {
   --common-white: #ffffff;
   --common-black: #000000;
-  --common-font: Montserrat, Helvetica, sans-serif;
 }
 
 * {
@@ -10,20 +9,10 @@
   box-sizing: border-box;
 }
 
-.title {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.5px;
-}
-
-.sub-title {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-}
-.text {
+body {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  line-height: 1.29;
 }
 
 img {

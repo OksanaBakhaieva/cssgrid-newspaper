@@ -1,1 +1,61 @@
 @import "./styleguide.css";
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.title {
+  font-family: "Nova Cut", serif;
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+}
+.title-1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  font-size: 84px;
+  text-align: center;
+}
+.title-2 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1.13;
+  text-align: center;
+}
+.title-3 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-4 {
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 1.22;
+  text-align: center;
+}
+.title-5 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.67;
+  text-align: center;
+}
+.sub-title {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.text-1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+}
+.text-1 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+}
