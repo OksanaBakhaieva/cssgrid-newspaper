@@ -1,61 +1,115 @@
 @import "./styleguide.css";
 
 .container {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 16px;
+  width: 1776px;
+  max-width: 1962px;
+  margin: 88px auto;
 }
-
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+}
+.section-1-list {
+  display: grid;
+  grid-template-columns: 4fr 5fr 3fr;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+  gap: 24px;
+}
+.section-2-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+  gap: 12px;
+}
+.section-2-item:not(:last-child) {
+  padding-right: 12px;
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+.logo {
+  width: 88px;
+  height: 88px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
 .title {
   font-family: "Nova Cut", serif;
   font-weight: 400;
   font-size: 72px;
+  line-height: 1.05;
   text-align: center;
+}
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 12px;
 }
 .title-1 {
   font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.05;
-  font-size: 84px;
+  font-size: 80px;
   text-align: center;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
 }
 .title-2 {
   font-weight: 800;
-  font-size: 72px;
-  line-height: 1.13;
-  text-align: center;
+  font-size: 64px;
+}
+.wrapper {
+  margin-bottom: 24px;
 }
 .title-3 {
   font-weight: 800;
-  font-size: 56px;
-  line-height: 1.17;
-  text-align: center;
+  font-size: 48px;
 }
 .title-4 {
   font-weight: 800;
-  font-size: 44px;
-  line-height: 1.22;
-  text-align: center;
+  font-size: 36px;
 }
 .title-5 {
   font-weight: 800;
-  font-size: 40px;
-  line-height: 1.67;
-  text-align: center;
+  font-size: 24px;
 }
 .sub-title {
   color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-}
-.text-1 {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.33;
+  font-size: 12px;
 }
 .text-1 {
   font-family: "Roboto", serif;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 1.33;
+  font-size: 18px;
+}
+.image1-placeholder {
+  background-color: black;
+  height: 80%;
+  margin-bottom: 12px;
+}
+.image2-placeholder {
+  background-color: grey;
+  width: 426px;
+  height: 284px;
+}
+.caption {
+  padding-bottom: 12px;
+}
+th {
+  background-color: black;
+  color: white;
+  width: 16.67%;
+}
+.first-column {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.text-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
